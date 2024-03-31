@@ -123,6 +123,16 @@
 
 # programming languages
 
+- a programming language is a (human-readable) system of notation to write computer programs (or to specify instructions for a computer).
+
+- (meaning, a language tries to be human-readable and provide a structured approach to specify computing processes such as: declaring a variable, defining a function, allocating memory.)
+
+- two questions:
+    - notation? - the word 'notation' refers to a structured/standardized way to communicate concepts. in this case, it means the syntax of that language.
+    - instructions? - a computer's processor can only understand machine language - 0s and 1s. instructions written using a programming language is translated/compiled to machine language for the processor to execute.
+
+- analogy: computers only 
+
 # git
 
 # operating systems
