@@ -1,5 +1,9 @@
 <p align=center>my handwritten notes on software engineering concepts</p>
-<br><br><br>
+<br><br>
+
+<p align=center> 
+    <a href=#dns>dns</a> • <a href=#http>http</a> • <a href=#git>git</a> 
+</p>
 
 # dns
 
@@ -125,13 +129,13 @@
 
 - a programming language is a (human-readable) system of notation to write computer programs (or to specify instructions for a computer).
 
-- (meaning, a language tries to be human-readable and provide a structured approach to specify computing processes such as: declaring a variable, defining a function, allocating memory.)
+    - meaning, a language tries to be human-readable and provide a structured approach to specify computing processes such as: declaring a variable, defining a function, allocating memory, executing operations on the variable, etc.
 
-- two questions:
-    - notation? - the word 'notation' refers to a structured/standardized way to communicate concepts. in this case, it means the syntax of that language.
+    - notation? - the word 'notation' refers to a structured/standardized way to communicate concepts.
+ 
+    - computer programs? - a program is a list of instructions that can be executed by a cpu.
+    
     - instructions? - a computer's processor can only understand machine language - 0s and 1s. instructions written using a programming language is translated/compiled to machine language for the processor to execute.
-
-- analogy: computers only 
 
 # git
 
