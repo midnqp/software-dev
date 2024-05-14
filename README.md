@@ -1,9 +1,26 @@
+<br><br><br>
 <p align=center>my handwritten notes on software engineering concepts</p>
-<br><br>
+<br><br><br><br><br>
 
-<p align=center> 
-    <a href=#dns>dns</a> • <a href=#http>http</a> • <a href=#git>git</a> 
-</p>
+# programming languages
+
+> wikipedia
+
+- a programming language is a (human-readable) system of notation to write computer programs (or to specify instructions for a computer).
+
+    - meaning, a language tries to be human-readable and provide a structured approach to specify computing processes such as: declaring a variable, defining a function, allocating memory, executing operations on the variable, etc.
+
+    - notation? - the word 'notation' refers to a structured/standardized way to communicate concepts.
+ 
+    - computer programs? - a program is a list of instructions that can be executed by a cpu.
+    
+    - instructions? - a computer's processor can only understand machine language, 0s and 1s. instructions written using a programming language is translated/compiled to machine language for the processor to execute.
+
+## how is code executed
+
+code written using a programming language translates into assembly. after that, the assembly code translates into cpu opcodes.
+
+
 
 # dns
 
@@ -31,7 +48,7 @@
 
     - until it receives an authoritative answer or the FQDN (fully qualified domain name) such as www.wikipedia.org.
 
-![](https://en.wikipedia.org/wiki/File:Example_of_an_iterative_DNS_resolver.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/a/a5/Example_of_an_iterative_DNS_resolver.svg)
 
 ## aws route53
 
@@ -64,15 +81,15 @@
 
 - an application-layer* protocol for transmitting hypermedia*.
 
+    - application-layer refers to the OSI model.
+    
+    - hypermedia refers to plain text, images, videos, hyperlinks, audio altogether.
+
 - designed for communication between web browsers and web servers.
 
 - stateless protocol: the server doesn't store any data between two requests. each request is understood separately.
 
 - due to the extensibility of http, videos and images can be fetched too.
-
-<sub>* hypermedia refers to plain text, images, videos, hyperlinks, audio altogether.</sub>
-
-<sub>* application-layer refers to the OSI model.</sub>
 
 ## messages
 
@@ -124,18 +141,6 @@
     - dedicated hosting: gives you exclusive access to the complete physical server. best for complex applications requiring large amount of processing power.
 
     - cloud: the latest iteration in web hosting and using compute resources.
-
-# programming languages
-
-- a programming language is a (human-readable) system of notation to write computer programs (or to specify instructions for a computer).
-
-    - meaning, a language tries to be human-readable and provide a structured approach to specify computing processes such as: declaring a variable, defining a function, allocating memory, executing operations on the variable, etc.
-
-    - notation? - the word 'notation' refers to a structured/standardized way to communicate concepts.
- 
-    - computer programs? - a program is a list of instructions that can be executed by a cpu.
-    
-    - instructions? - a computer's processor can only understand machine language - 0s and 1s. instructions written using a programming language is translated/compiled to machine language for the processor to execute.
 
 # git
 
